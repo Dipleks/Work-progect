@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ToolBar layoutX="47.0" layoutY="131.0">
+         <items>
+            <ComboBox editable="true" layoutX="47.0" layoutY="131.0" onAction="#box" promptText="List">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </ComboBox>
+         </items>
+      </ToolBar>
+      <TextField editable="false" layoutX="274.0" layoutY="40.0" style="-fx-background-color: green;" text="dfgh" />
+   </children>
+</Pane>

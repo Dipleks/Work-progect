@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: GREEN;" />
+      <Button layoutX="372.0" layoutY="520.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="118.0" style="-fx-background-color: blue;" text="Open" textFill="#02f588" onAction="#print"/>
+      <Button layoutX="513.0" layoutY="520.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="118.0" style="-fx-background-color: blue;" text="Save" textFill="#07f57c" />
+      <DatePicker layoutX="360.0" layoutY="37.0" prefHeight="19.0" prefWidth="281.0" />
+   </children>
+</Pane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="740.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="rootPanel" layoutX="51.0" layoutY="106.0" prefHeight="400.0" prefWidth="638.0" style="-fx-background-color: darkblue;">
+         <children>
+            <Button layoutX="388.0" layoutY="110.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="128.0" text="Button" />
+            <TextField layoutX="133.0" layoutY="130.0" prefHeight="50.0" prefWidth="225.0" />
+         </children>
+      </Pane>
+      <MenuBar layoutY="-3.0" prefHeight="30.0" prefWidth="740.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Exarcise">
+            <items>
+                  <MenuItem onAction="#setRemove" id="clik2" mnemonicParsing="false" text="test2" />
+              <MenuItem onAction="#menuStrart" id="clikMenu" mnemonicParsing="false" text="TestClik" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="remove" layoutX="294.0" layoutY="40.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="152.0" text="Remove" textFill="#e81212" />
+   </children>
+</AnchorPane>

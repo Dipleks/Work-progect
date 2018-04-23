@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView layoutX="142.0" layoutY="75.0" prefHeight="200.0" prefWidth="575.0">
+        <columns>
+          <TableColumn prefWidth="62.0" text="C2" />
+            <TableColumn prefWidth="76.0" text="C1" />
+            <TableColumn prefWidth="87.0" text="C1" />
+            <TableColumn prefWidth="140.0" text="C1" />
+            <TableColumn minWidth="15.0" prefWidth="104.0" text="GT" />
+          <TableColumn minWidth="15.0" prefWidth="104.0" text="GT" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
