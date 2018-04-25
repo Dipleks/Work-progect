@@ -53,17 +53,22 @@ class ThedTest implements RootG
         {
             @Override
             public void run() {
-                Map<Integer, String> map = new HashMap<>();
+//                Map<Integer, String> map = new HashMap<>();
+//                for (int i = 0; i < 5; i++) {
+//                    try {
+//                        map.put(i, addLabStr()[i]);
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
                 for (int i = 0; i < 5; i++) {
+                    label1[i] = new Label();
+//                    label1[i].setText(map.get(i));
                     try {
-                        map.put(i, addLabStr()[i]);
+                        label1[i].setText(addLabStr()[i]);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-                for (int i = 0; i < 5; i++) {
-                    label1[i] = new Label();
-                    label1[i].setText(map.get(i));
                     label1[i].setLayoutX(20);
                     label1[i].setLayoutY(i*20);
                 }
@@ -84,17 +89,21 @@ class ThedTest implements RootG
         {
             @Override
             public void run() {
-                Map<Integer, String> map = new HashMap<>();
+//                Map<Integer, String> map = new HashMap<>();
+//                for (int i = 0; i < 5; i++) {
+//                    try {
+//                        map.put(i, addNumStr()[i]);
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
                 for (int i = 0; i < 5; i++) {
+                    label2[i] = new Label();
                     try {
-                        map.put(i, addNumStr()[i]);
+                        label2[i].setText(addNumStr()[i]);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                }
-                for (int i = 0; i < 5; i++) {
-                    label2[i] = new Label();
-                    label2[i].setText(map.get(i));
                     label2[i].setLayoutX(5);
                     label2[i].setLayoutY(i*20);
                 }
