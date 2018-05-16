@@ -21,11 +21,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCPostgreSQLExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JDBCPostgreSQLExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testDB/JDBCPostgreSQLExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="253">
+              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testDB/TestA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3285#3286#0" expanded="true" />
+                <element signature="e#3313#3314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,10 +59,11 @@
         <option value="$PROJECT_DIR$/src/testDB/test.db" />
         <option value="$PROJECT_DIR$/src/testDB/BindingJavaFX.java" />
         <option value="$PROJECT_DIR$/src/testDB/JDBCPostgreSQLExample.java" />
+        <option value="$PROJECT_DIR$/src/testDB/TestA.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="width" value="509" />
     <option name="height" value="605" />
@@ -104,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCPostgreSQLExample">
+  <component name="RunManager" selected="Application.TestA">
     <configuration name="BindingJavaFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testDB.BindingJavaFX" />
       <module name="DB" />
@@ -118,6 +133,17 @@
     </configuration>
     <configuration name="JDBCPostgreSQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testDB.JDBCPostgreSQLExample" />
+      <module name="DB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testDB.TestA" />
       <module name="DB" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -171,9 +197,11 @@
     <list>
       <item itemvalue="Application.BindingJavaFX" />
       <item itemvalue="Application.JDBCPostgreSQLExample" />
+      <item itemvalue="Application.TestA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestA" />
         <item itemvalue="Application.JDBCPostgreSQLExample" />
         <item itemvalue="Application.BindingJavaFX" />
       </list>
@@ -198,13 +226,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32936507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24206349" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24206349" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -280,8 +308,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testDB/JDBCPostgreSQLExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="253">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testDB/TestA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
