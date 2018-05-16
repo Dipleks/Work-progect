@@ -1,0 +1,6 @@
+CREATE TABLE test_db_java
+(
+    id PRIMARY KEY,
+    name VARCHAR(15),
+    family VARCHAR(25)
+)
