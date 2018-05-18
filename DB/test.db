@@ -1,0 +1,15 @@
+CREATE TABLE test_db_java
+(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(15),
+    family VARCHAR(25)
+);
+CREATE TABLE test_db_java2
+(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(15),
+    family VARCHAR(25)
+);
+INSERT INTO test_db_java (name, family)
+VALUES ('Denis', 'Zagorodnev'),
+        ('Mishal', 'Zagorodnev');
