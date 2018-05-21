@@ -12,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.db">
+      <file leaf-file-name="TestA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testDB/TestA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newDB/StrTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewDBinJava.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/newDB/NewDBinJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="119">
+              <caret line="23" selection-start-line="23" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newDB/AddTable.java">
+      <file leaf-file-name="TextAdd2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/addTextInTable/TextAdd2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="470">
+              <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,11 +52,13 @@
         <option value="$PROJECT_DIR$/src/testDB/test.db" />
         <option value="$PROJECT_DIR$/src/testDB/BindingJavaFX.java" />
         <option value="$PROJECT_DIR$/src/testDB/JDBCPostgreSQLExample.java" />
-        <option value="$PROJECT_DIR$/src/testDB/TestA.java" />
         <option value="$PROJECT_DIR$/test.db" />
         <option value="$PROJECT_DIR$/src/newDB/StrTest.java" />
         <option value="$PROJECT_DIR$/src/newDB/AddTable.java" />
         <option value="$PROJECT_DIR$/src/newDB/NewDBinJava.java" />
+        <option value="$PROJECT_DIR$/src/testDB/TestA.java" />
+        <option value="$PROJECT_DIR$/src/addTextInTable/TextAdd.java" />
+        <option value="$PROJECT_DIR$/src/addTextInTable/TextAdd2.java" />
       </list>
     </option>
   </component>
@@ -88,8 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +83,12 @@
               <item name="DB" type="b2602c69:ProjectViewProjectNode" />
               <item name="DB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="addTextInTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DB" type="b2602c69:ProjectViewProjectNode" />
@@ -119,6 +107,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTable">
+  <component name="RunManager" selected="Application.TextAdd2">
     <configuration name="AddTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="newDB.AddTable" />
       <module name="DB" />
@@ -153,28 +143,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="newDB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BindingJavaFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testDB.BindingJavaFX" />
-      <module name="DB" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testDB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="JDBCPostgreSQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testDB.JDBCPostgreSQLExample" />
-      <module name="DB" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testDB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,6 +165,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TextAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addTextInTable.TextAdd" />
+      <module name="DB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addTextInTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TextAdd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addTextInTable.TextAdd2" />
+      <module name="DB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addTextInTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,19 +233,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BindingJavaFX" />
-      <item itemvalue="Application.JDBCPostgreSQLExample" />
       <item itemvalue="Application.TestA" />
       <item itemvalue="Application.NewDBinJava" />
       <item itemvalue="Application.AddTable" />
+      <item itemvalue="Application.TextAdd" />
+      <item itemvalue="Application.TextAdd2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextAdd2" />
+        <item itemvalue="Application.TestA" />
+        <item itemvalue="Application.TextAdd" />
         <item itemvalue="Application.AddTable" />
         <item itemvalue="Application.NewDBinJava" />
-        <item itemvalue="Application.TestA" />
-        <item itemvalue="Application.JDBCPostgreSQLExample" />
-        <item itemvalue="Application.BindingJavaFX" />
       </list>
     </recent_temporary>
   </component>
@@ -287,22 +277,22 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21693122" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32936507" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26461768" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15667166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32936507" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -319,6 +309,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newDB/StrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newDB/AddTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newDB/NewDBinJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -366,19 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdfg.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testDB/TestA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/newDB/StrTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -395,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newDB/AddTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="476">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -405,8 +416,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newDB/NewDBinJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testDB/TestA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addTextInTable/TextAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addTextInTable/TextAdd2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
